@@ -1,12 +1,14 @@
 import React from "react";
-import Sidebar from "../Components/Sidebar";
-import Header from "../Components/Header";
+import CompleteHeader from "../Components/CompleteHeader";
 
 function Dashboard() {
   return (
     <div className="flex h-screen">
-      <Sidebar />
-      <Header />
+      <CompleteHeader searchContent="Global Search">
+        <div>
+          <p>hahah</p>
+        </div>
+      </CompleteHeader>
     </div>
   );
 }

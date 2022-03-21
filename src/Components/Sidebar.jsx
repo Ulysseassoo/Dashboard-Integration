@@ -53,7 +53,7 @@ const navElements = [
 
 function Sidebar() {
   return (
-    <header className="w-64 bg-white shadow-md divide-y divide-slate-200 flex flex-col">
+    <header className="w-64 bg-white shadow-lg divide-y divide-slate-200 flex flex-col z-10">
       <div className="h-16 w-full p-4">
         <p className="text-sky-500 ">SaaS Kit</p>
       </div>
