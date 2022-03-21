@@ -1,8 +1,17 @@
+import { Route, Routes } from "react-router"
+import Dashboard from "./Screens/Dashboard"
+import Contacts from "./Screens/Contacts"
+import Chat from "./Screens/Chat"
+
 function App() {
 	return (
-		<div className="App">
-			<p className="text-lg text-green-400">Hello Vite + React!</p>
-		</div>
+		<>
+			<Routes>
+				<Route path="/dashboard" element={<Dashboard />} />
+				<Route path="/contacts" element={<Contacts />} />
+				<Route path="/chat" element={<Chat />} />
+			</Routes>
+		</>
 	)
 }
 
