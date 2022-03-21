@@ -1,8 +1,15 @@
 import React from "react";
+import CompleteHeader from "../Components/CompleteHeader";
 
 function Dashboard() {
     return (
-        <p className="text-4xl block text-indigo-600 xl:inline">Dashboard</p>
+        <div className="flex h-screen">
+            <CompleteHeader searchContent="Global Search">
+                <div>
+                    <p>hahah</p>
+                </div>
+            </CompleteHeader>
+        </div>
     );
 }
 

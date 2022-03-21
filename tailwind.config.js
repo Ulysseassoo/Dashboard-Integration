@@ -1,14 +1,15 @@
 module.exports = {
-	content: ["./src/**/*.html", "./src/**/*.js", "./src/**/*.jsx"],
-	media: false,
-	theme: {
-		extend: {},
-		minWidth: {
-			"400px" : "400px"
-		},
-	},
-	variants: {
-		extend: {}
-	},
-	plugins: []
-}
+    content: ["./src/**/*.html", "./src/**/*.js", "./src/**/*.jsx"],
+    mode: "jit",
+    media: false, //
+    theme: {
+        minWidth: {
+            "400px": "400px",
+        },
+        extend: {},
+    },
+    variants: {
+        extend: {},
+    },
+    plugins: [],
+};
