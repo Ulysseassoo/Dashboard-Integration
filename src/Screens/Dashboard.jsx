@@ -1,7 +1,14 @@
-import React from "react"
+import React from "react";
+import Sidebar from "../Components/Sidebar";
+import Header from "../Components/Header";
 
-const Dashboard = () => {
-	return <p className="text-4xl block text-indigo-600 xl:inline">Dashboard</p>
+function Dashboard() {
+  return (
+    <div className="flex h-screen">
+      <Sidebar />
+      <Header />
+    </div>
+  );
 }
 
-export default Dashboard
+export default Dashboard;
