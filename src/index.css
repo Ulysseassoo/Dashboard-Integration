@@ -68,3 +68,8 @@ h6 {
 #__next {
 	isolation: isolate;
 }
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
