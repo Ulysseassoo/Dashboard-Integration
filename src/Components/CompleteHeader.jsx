@@ -6,9 +6,9 @@ function CompleteHeader({ searchContent, children }) {
   return (
     <>
       <Sidebar />
-      <div className="flex flex-col w-[calc(100%-256px)]">
+      <div className="flex flex-col w-[calc(100%-256px)] overflow-hidden">
         <Header content={searchContent} />
-        <div className="h-[calc(100vh-4rem)]">{children}</div>
+        <div className="h-[calc(100vh-4rem)] p-8">{children}</div>
       </div>
     </>
   );
