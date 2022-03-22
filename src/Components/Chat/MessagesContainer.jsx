@@ -37,7 +37,10 @@ function MessagesContainer() {
           <img src="../../../src/Assets/Images/menuDots.png" alt="options" />
         </div>
       </div>
-      <div className="h-[calc(100%-100px)] bg-white overflow-y-scroll">
+      <div
+        className="h-[calc(100%-100px)] bg-white overflow-y-scroll"
+        style={{ scrollbarWidth: "none" }}
+      >
         {messages.map(({ message, name, date }) => {
           return <MessageSingle message={message} name={name} date={date} />;
         })}
