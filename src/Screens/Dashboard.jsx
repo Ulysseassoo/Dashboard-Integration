@@ -33,6 +33,11 @@ function Dashboard() {
                   Show:<span className="text-sky-400 pl-1">This week</span>{" "}
                 </p>
               </div>
+              <div className="w-full pt-4">
+                <div className="w-full bg-gray-200 h-1">
+                  <div className="bg-green-400 h-1" style={{ width: "80%" }} />
+                </div>
+              </div>
               <div className="pt-4">
                 <p className="font-bold text-black"> 23 December, Sunday</p>
               </div>
@@ -42,7 +47,7 @@ function Dashboard() {
             </div>
             <div className="p-4 flex flex-col gap-4 h-4/5">
               <TodoList />
-              <div className="mt-auto text-center">
+              <div className=" text-center">
                 <p className="text-sky-600 text-sm font-semibold">Show more</p>
               </div>
             </div>
