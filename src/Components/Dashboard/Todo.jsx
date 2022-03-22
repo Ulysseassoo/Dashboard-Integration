@@ -3,7 +3,7 @@ import image from "../../Assets/Images/Lindsey.png";
 
 function Todo({ title, type, date, complete, firstname, lastname }) {
   return (
-    <div className="bg-white shadow-md p-6 flex flex-col gap-4 justify-between">
+    <div className="bg-white shadow-md p-4 flex flex-col gap-4 justify-between">
       <div>
         <div className="flex items-center justify-between">
           <p className="font-medium text-black text-base">{title}</p>
