@@ -2,7 +2,7 @@ import React from "react";
 
 function Card({ title, date, children }) {
   return (
-    <div className="shadow-lg w-full flex-1 rounded">
+    <div className="shadow-lg w-full flex-1 rounded bg-white">
       <div className="flex justify-between items-center border-slate-200 border-b-2 p-4">
         <p className="text-md text-black">{title}</p>
         <p className="text-sm text-gray-500">

@@ -23,7 +23,7 @@ function Dashboard() {
     <div className="flex h-screen">
       <CompleteHeader searchContent="Global Search">
         <div className="flex gap-8 h-full">
-          <div className="flex-auto w-3/5 shadow-lg rounded">
+          <div className="flex-auto w-3/5 shadow-lg rounded bg-white">
             <div className="border-slate-200 border-b-2 p-4">
               <div className="flex justify-between items-center">
                 <p className="text-blue-800 text-sm">
